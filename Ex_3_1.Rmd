@@ -1,6 +1,6 @@
 ---
 title: "Grey's Anatomy"
-author: "HIlaReut"
+author: "HilaReut"
 date: "16 May 2016"
 output: html_document
 ---

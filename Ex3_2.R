@@ -1,7 +1,7 @@
 folder = '/Users/Hila/Documents/ML/Targil3'
 setwd(folder)
 require(igraph)
-ga.data = read.csv('NationalNames1.csv',header = T)
+ga.data = read.csv('1.csv',header = T)
 ga_names =  graph.data.frame(ga.data,directed = F)
 summary(ga_names)
 V(ga_names)$name

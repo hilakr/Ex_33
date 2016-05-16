@@ -1,13 +1,14 @@
 ---
-title: "Ex3_2"
-author: "HIlaReut"
+title: "World-Wide-Web"
+author: "HilaReut"
 date: "16 May 2016"
 output: html_document
 ---
 
-<h2>US Baby names </h2>
-Source : https://www.kaggle.com/kaggle/us-baby-names. <br>
-This CSV file contains the national US baby names data. It includes the following fields:
+World-Wide-Web
+Source : http://www3.nd.edu/~networks/resources/www/www.dat.gz <br>
+Each number represents webpage within nd.edu domain.
+Data-format: From -> To (directed link)
 Name,
 Count
 
@@ -21,7 +22,7 @@ require(igraph)
 Get the data
 
 ```{r}
-ga.data = read.csv('NationalNames1.csv',header = T)
+ga.data = read.csv('1.csv',header = T)
 ga_names =  graph.data.frame(ga.data,directed = F)
 summary(ga_names)
 V(ga_names)$name
